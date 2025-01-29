@@ -151,5 +151,85 @@ ol {
 }
 
 /* Counter Part Ended  */
+
+/* Service Started  */
+#service {
+  padding-top: 133px;
+}
+.service-header h6 {
+  font-size: 16px;
+  color: #5e3bee;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.service-header h6::after {
+  content: url("/images/rec1.png");
+  position: absolute;
+  top: -36px;
+  left: 52px;
+  z-index: -1;
+  /* height: 20px;
+  background-color: green; */
+}
+
+.service-header h4 {
+  font-size: 34px;
+  color: #000000;
+  font-weight: 600;
+  letter-spacing: 0.5%;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+.service-header p {
+  font-size: 16px;
+  color: #121212;
+  letter-spacing: 0.5%;
+  opacity: 0.7;
+  line-height: 32px;
+}
+.service_item {
+  background-color: white;
+  padding: 52px 34px;
+  border-radius: 24px;
+  margin-top: 64px;
+  filter: drop-shadow(37px 37px 80px rgba(0, 0, 0, 0.3));
+  transition: all linear 0.3s;
+}
+
+.service_item:hover {
+  background-color: #f6f6f8;
+}
+.service_item h5 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-top: 37px;
+}
+
+.service_item p {
+  color: #121212;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  opacity: 0.7;
+  line-height: 32px;
+}
+
+/* Service Ended  */
+
+/* Nabvar Started  */
+/* Nabvar Ended  */
+
+/* Nabvar Started  */
+/* Nabvar Ended  */
+
+/* Nabvar Started  */
+/* Nabvar Ended  */
+
 /* Nabvar Started  */
 /* Nabvar Ended  */
