@@ -121,7 +121,6 @@ ol {
   background-color: #33199c;
 }
 
-
 .download_cv a {
   text-decoration: none;
   font-size: 14px;
@@ -133,22 +132,22 @@ ol {
 /* Banner Part Ended  */
 
 /* Counter Part Started  */
-#counter{
-    padding-top: 90px;
+#counter {
+  padding-top: 90px;
 }
-.counter_item h3{
-    color: #000000;
-    font-weight: 600;
-    font-size: 48px;
-    letter-spacing: 0.5px;
+.counter_item h3 {
+  color: #000000;
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: 0.5px;
 }
-.counter_item p{
-    color: #121212;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    opacity: 0.7;
+.counter_item p {
+  color: #121212;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  opacity: 0.7;
 }
 
 /* Counter Part Ended  */
