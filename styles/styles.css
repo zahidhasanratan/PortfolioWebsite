@@ -44,7 +44,12 @@ ol {
   color: black;
   text-transform: uppercase;
   letter-spacing: 1.5px;
+  transition: all linear 0.3s;
 }
+.nav-item .nav-link:hover {
+  color: #5e3bee;
+}
+
 .navbar button {
   font-weight: 500;
   font-size: 14px;
@@ -57,7 +62,12 @@ ol {
   display: flex;
   column-gap: 7px;
   align-items: center;
+  transition: all linear 0.3s;
 }
+.navbar button:hover {
+  background-color: #33199c;
+}
+
 .navbar button i {
   font-size: 16px;
 }
@@ -104,16 +114,43 @@ ol {
   display: flex;
   column-gap: 9px;
   align-items: center;
+  transition: all linear 0.3s;
 }
-.download_cv a{
-    text-decoration: none;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    color: #333333;
+
+.button_part button:hover {
+  background-color: #33199c;
+}
+
+
+.download_cv a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #333333;
 }
 
 /* Banner Part Ended  */
 
+/* Counter Part Started  */
+#counter{
+    padding-top: 90px;
+}
+.counter_item h3{
+    color: #000000;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 0.5px;
+}
+.counter_item p{
+    color: #121212;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
+
+/* Counter Part Ended  */
 /* Nabvar Started  */
 /* Nabvar Ended  */
